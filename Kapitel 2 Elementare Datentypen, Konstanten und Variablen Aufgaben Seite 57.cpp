@@ -5,7 +5,7 @@ using namespace std;
 
 
 //	Aufgabe 1 Seite 57
-//	Mit dem sizeof-Operator kann die Anzahlm der Bytes ermittelt werden, die Variablen eines bestimmten Datentyps im Hauptspeicher belegen.
+//	Mit dem sizeof-Operator kann die Anzahl der Bytes ermittelt werden, die Variablen eines bestimmten Datentyps im Hauptspeicher belegen.
 //	Beispielweise hat sizeof(short) den Wert 2.
 //	Schreiben Sie ein C++-Programm, das für für jeden elementaren Datentyp die Größe des benötigen Speicherplatzes auf dem Bildschirm ausgibt.
 
