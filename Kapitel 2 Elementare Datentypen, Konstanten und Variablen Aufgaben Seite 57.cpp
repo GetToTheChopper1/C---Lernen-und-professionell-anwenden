@@ -5,7 +5,7 @@ using namespace std;
 
 
 //	Aufgabe 1 Seite 57
-//	Mit dem sizeof-Operator kann die Anzahl der Bytes ermittelt werden, die Variablen eines bestimmten Datentyps im Hauptspeicher belegen.
+//	Mit dem sizeof-Operator kann die Anzahlm der Bytes ermittelt werden, die Variablen eines bestimmten Datentyps im Hauptspeicher belegen.
 //	Beispielweise hat sizeof(short) den Wert 2.
 //	Schreiben Sie ein C++-Programm, das für für jeden elementaren Datentyp die Größe des benötigen Speicherplatzes auf dem Bildschirm ausgibt.
 
@@ -41,7 +41,7 @@ int Aufgabe;
 int main() {
 
 
-	cout << "Geben Sie die Aufgabe an " << endl;
+	cout << "Geben Sie die Aufgabe von Kapitel 2 Seite 57 an " << endl;
 	cin >> Aufgabe;
 
 	switch (Aufgabe) {
@@ -68,6 +68,7 @@ int main() {
 
 		cout << "long double" << "\t" << sizeof(long double) << endl;
 
+		break;
 
 	case 2:
 
@@ -80,6 +81,8 @@ int main() {
 		cout << "\t" << "UND" << endl;
 
 		cout << "/HER/" << endl;
+
+		break;
 
 	case 3:
 
@@ -106,7 +109,8 @@ int main() {
 //		double fläche(1.2E+5); // Zeichen "ä" ist in Namen nicht erlaubt
 		
 //		float val = 12345.12345; // Erlaubt,  allerdings weniger Sinnvoll, weil die Genauigkeit der "float" Datentyps nur 6 Stellen beträgt.
-
+		
+		break;
 
 	case 4:
 
@@ -114,7 +118,8 @@ int main() {
 		
 		cout << "Summe" << "\t" "\t" << a + b << endl;
 		cout << "Differenz" << "\t" <<a - b << endl;
-
+		
+		break;
 
 	}
 
