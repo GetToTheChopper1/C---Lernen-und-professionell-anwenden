@@ -24,7 +24,7 @@ int len = meldung.length();
 //Der Return-Wert der Funktion sqrt() ist die Wurzel von x
 
 // Aufgabe 2 Seite 75
-//Das nebestehende Programm enthält mehrere Fehler ! Korrigieren Sie die Fehler, und Sie die Lauffähigkeit des Programms.
+//Das nebestehende Programm enthÃ¤lt mehrere Fehler ! Korrigieren Sie die Fehler, und Sie die LauffÃ¤higkeit des Programms.
 
 // Ein Programm mit Fehlern !
 
@@ -55,7 +55,7 @@ int len = meldung.length();
 //
 // Erstellen Sie ein C++-Programm, in dem ein String mit der Zeichenkette 
 // Schon wieder was dazugelernt !
-// definiert und die Länge des Strings von der Tastatur ein. Fügen Sie die beiden Strings so zu einem String zusammen, dass die beiden Teilstrings durch " * " getrennt sind. 
+// definiert und die LÃ¤nge des Strings von der Tastatur ein. FÃ¼gen Sie die beiden Strings so zu einem String zusammen, dass die beiden Teilstrings durch " * " getrennt sind. 
 // geben Sie den neuen String am Bildschirm aus.
 
 
@@ -63,7 +63,7 @@ int len = meldung.length();
 int main() {
 
 
-	cout << "Geben Sie die Aufgabe von Kapiterl 3 Seite 75 an" << endl;
+	cout << "Geben Sie die Aufgabe von Kapitel 3 Seite 75 an" << endl;
 
 	cin >> Aufgabe;
 
@@ -118,7 +118,7 @@ int main() {
 
 		int len2 = Zeichenkette.length();
 
-		cout << " Länge der Zeichenkette" << len2 << endl;
+		cout << " LÃ¤nge der Zeichenkette" << len2 << endl;
 
 		string neuZeichenkette1, neuZeichenkette2, Summe;
 		
